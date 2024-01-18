@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./App.css"
-import 'react-toastify/dist/ReactToastify.css';
+// import 'react-toastify/dist/ReactToastify.css';
 // import { ToastContainer, toast } from 'react-toastify';
 export default function Form() {
     const[formsubbmit,setFormsubbmit]=useState(false)
@@ -99,7 +99,7 @@ return error
 
           />
    {formerr.phone &&   <p className='err'>Enter your Phone </p>}
-          <input type="submit" onClick={notify} value={"Register"}/>
+          <input type="submit"  value={"Register"}/>
 
 
         </form>
